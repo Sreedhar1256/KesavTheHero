@@ -12,7 +12,7 @@ public class LoginPage {
 
 		String baseUrl = "http://localhost:9090/DQAM";
 		String expectedTitle = "Data Quality Assessment Manager v8.1";
-		String actualTitle = "";
+		 
 		driver.get(baseUrl);
 		String currentUrl = driver.getTitle();
 		try {
